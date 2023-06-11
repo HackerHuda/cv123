@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+            box-sizing: border-box;
+            text-align: center;
+        }
+        body{
+            margin: 0;
+            background-color: rgb(255, 255, 255) ;
+        }
+        .header{
+            background-color: rgb(63, 63, 255);
+            color: bisque;
+            font-size: 30px;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+        .column{
+            float: left;
+            width: 33.33%;
+            padding: 15px;
+        }
+        .row::after{
+            content: "";
+            display:table;
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+    <div class="column" style="background-color: blue;font-size: 15px;color: antiquewhite;">About Us</div>
+    <div class="column" style="background-color: blue;font-size: 15px;color: antiquewhite;">Mission</div>
+    <div class="column" style="background-color: blue;font-size: 15px;color: antiquewhite;">Vision</div>
+    <div class="row">
+        <div class="column">
+            <p>
+                The About Us page of your website is an essential source of information for all who want to know more about your business.
+About Us pages are where you showcase your history, what is unique about your work, your company’s values, and who you serve.
+The design, written content, and visual or video elements together tell an important story about who you are and why you do it.
+            </p>
+        </div>
+        <div class="column">
+            <p>
+                My vision is to be an honest, empathetic and impactful project leader and to be recognized internationally within my industry. I am committed to growing as a leader and delivering value-added projects to the end users.
+            </p>
+        </div>
+        <div class="column">
+            <p>
+                My mission is to create and lead a dream team where everyone is playing to their strengths.
+            </p>
+        </div>
+    </div>
+    <hr style="height: fit-content;">
+    <a href="project main.html"><h5 style="align-items: center;">Go back to main page</h5></a>
+</body>
+</html>
