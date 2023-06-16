@@ -1,0 +1,35 @@
+h1{
+    color: rgb(89, 136, 223);
+    background-color: bisque;
+}
+body{
+    align-items: center;
+    background-color: beige;
+}
+hr{ 
+    border-style: none;
+    height: 2px;
+    border-width: 8px;
+    width: 30%;
+    border-top-style: dotted;
+    border-color: rgb(255, 127, 255);
+}
+.tab{
+    background-color: rgba(255, 255, 255, 0.479);
+    color: rgb(0, 0, 0);
+    height: 400px;
+    width: 400px;
+    padding-top: 20px;
+    width: 400px;
+    
+    text-align: center;
+}
+.flex-container{
+    display: flexbox;
+    background-color: rgba(94, 130, 247, 0);
+    text-align: center;
+    padding: 2% 35%;
+}
+
+
+  
